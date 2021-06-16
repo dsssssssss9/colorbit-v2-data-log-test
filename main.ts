@@ -17,6 +17,6 @@ loops.everyInterval(200, function () {
     if (Logging) {
         colorbit_51bit.showColorIcon(ColorIcon.Heart, colorbit.colors(BitColors.Red))
         datalogger.logData([datalogger.createCV("Volume", input.soundLevel()), datalogger.createCV("Light", input.lightLevel())])
-        colorbit_51bit.showColorIcon(ColorIcon.SmallHeart, colorbit.colors(BitColors.Red))
+        colorbit_51bit.clear()
     }
 })
